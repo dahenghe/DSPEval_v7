@@ -82,7 +82,7 @@ DSPNorm.eval.bio.var <- function(normed.data.list, norm.methods.list, grouping.i
       if(main==""){
         myplot.keep = myplot.keep + ggplot2::ggtitle(paste("Method ", method_id, sep = ""))
       } else{
-        myplot.keep = myplot.keep + ggplot2::ggtitle(paste(main, ", ", "Method ", method_id, sep = ""))
+        myplot.keep = myplot.keep + ggplot2::ggtitle(paste(main, "\n", "Method ", method_id, sep = ""))
       }
 
 
