@@ -79,7 +79,7 @@ DSPNorm.eval.heatmap <- function(normed.data.list, norm.methods.list, grouping.i
       if(main==""){
         main.use <- paste("Method ", method_id, sep = "")
       } else{
-        main.use <- paste(main, ", ", "Method ", method_id, sep = "")
+        main.use <- paste(main, "\n", "Method ", method_id, sep = "")
       }
       myplot = pheatmap::pheatmap(data.scaled.bg_corrected.normed.pt.i, # the data table
                #color=greenred(90),

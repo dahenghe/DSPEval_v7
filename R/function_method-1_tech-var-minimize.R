@@ -92,7 +92,7 @@ DSPNorm.eval.tech.var <- function(normed.data.list, norm.methods.list, grouping.
         myplot.keep = myplot.keep + ggplot2::ggtitle(paste("Method ", method_id, "\n", grp.uniq[grp_id], sep = ""))
       } else{
         #myplot.keep = myplot.keep + ggtitle(paste(main, ", ", method_id, ", ", grp.uniq[grp_id], sep = ""))
-        myplot.keep = myplot.keep + ggplot2::ggtitle(paste(main, ", ","Method ", method_id, "\n", grp.uniq[grp_id], sep = ""))
+        myplot.keep = myplot.keep + ggplot2::ggtitle(paste(main, "\n", grp.uniq[grp_id], "\n","Method ", method_id, sep = ""))
       }
 
       plots.list[[plot_id]] = myplot.keep
